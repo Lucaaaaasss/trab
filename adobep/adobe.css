@@ -1,0 +1,187 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+
+}
+header{
+  background-color: rgb(220, 220, 220);
+  padding: 20px 20px;
+}
+header a{
+  text-decoration: none;
+  color: black;
+}
+header a:hover{
+  text-decoration: underline;
+  color: black;
+}
+h1{
+  display: flex;
+  justify-content: space-between;
+}
+header p {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size:20px;
+  cursor: pointer;
+
+}
+h1 ul {
+	display: inline-flex;
+  font-size:24px;
+  align-items: center;
+  width: 200px;
+  justify-content: center;
+}
+h1 li{
+  display: inline-block;
+}
+.facebook{
+  padding-left: 10px;
+}
+
+h1 img{
+   display: inline-block;
+}
+
+.informacao{
+  
+  text-align:center;
+  font-size: 21px;
+  line-height: 1.25;
+
+}
+
+.alinhamento li{
+  background-color: rgb(246, 246, 247);
+  margin: 20px 10px;
+  text-align:center ;
+  padding: 2px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 2px;
+  cursor: pointer;
+
+}
+.alinhamento li:nth-child(3n){
+  margin-right: 0px;
+}
+.alinhamento li:nth-child(3n+1){
+  margin-left: 0px;
+}
+.especial{
+  margin: 30px;
+
+}
+
+.alinhamento{
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(white , rgb(200, 200, 200));
+
+
+}
+.banner{
+    display: block;
+    width: 100%;
+    margin-bottom: 50px;
+
+}
+
+div img{
+  width: 100%;
+ 
+
+
+}
+#texto{
+	 width: 90%;
+   margin: auto;
+   margin-bottom: 100px;
+
+}
+.titulo{
+    font-size: 29px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+
+
+
+}
+.aplicativo{
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.aplicativo:hover{
+   font-size: 24px;
+  
+  }
+
+footer{
+  background: rgb(35, 33, 25);
+  text-align: center;
+
+}
+footer img{
+   width: 225px;
+   margin: 10px auto;
+}
+form{
+  width: 90%;
+  margin: 20px auto;
+}
+label{
+  display: block;
+  font-size:20px;
+  margin-bottom:10px;
+}
+.input-padrao{
+  display: block;
+  width: 40%;
+  margin: 0px 0px 20px;
+  padding: 10px;
+  font-size:15px;
+}
+.enviar{
+  background:orange;
+  border-radius: 5px;
+  width: 30%;
+  padding:10px;
+  border:none;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+@media screen and (max-width: 750px){
+
+    header h1 , .alinhamento{
+     width: 100%;
+     justify-content: center;
+     text-align: center;
+     flex-wrap: wrap;
+    }
+    header h1{
+     align-items: center;
+     display: flex;
+    }
+    header img {
+     margin-bottom: 10px;
+    }
+
+   h1 {
+     display: block;
+     align-items: center;
+     }
+   .banner img{
+     height: 80px;
+   }
+   .banner{
+    margin-bottom: 50px;
+   }
+   .alinhamento li{
+    margin: 5px 0px;
+   }
+
+}
